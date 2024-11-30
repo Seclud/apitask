@@ -51,7 +51,7 @@ def get_price():
     all_products = scrape_category(base_url, start_url)
     return all_products
 
-all_products = get_price()
-print(all_products)
-for product in all_products:
-    print(f"Название товара: {product['name']}, Цена: {product['price']}")
+# all_products = get_price()
+# print(all_products)
+# for product in all_products:
+#     print(f"Название товара: {product['name']}, Цена: {product['price']}")
